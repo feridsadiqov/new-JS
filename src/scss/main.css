@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.container .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  border-bottom: 1.3px solid rgb(155, 154, 154);
+}
+.container .box {
+  margin: 50px;
+  border-top: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.3);
+}
+.container .content {
+  display: none;
+  width: 550px;
+  color: rgb(39, 12, 65);
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.container .content.active {
+  display: block;
+  transform: 3s;
+}
+.container .box :hover {
+  background-color: rgb(159, 108, 207);
+}
+.container span :hover {
+  transform: translateY(100deg);
+}/*# sourceMappingURL=main.css.map */
